@@ -3,6 +3,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 body
 {
@@ -15,7 +16,7 @@ body
 .profile
 {
     position: relative;
-    width: 350px;
+    width: 400px;
     padding: 40px 40px 60px;
     background: #131419;
     border-radius: 10px;
@@ -33,4 +34,9 @@ img
     border: 10px;
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
                 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.content
+{
+    color: #c7c7c7;
+    margin-top: 1rem;
 }
